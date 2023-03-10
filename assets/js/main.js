@@ -13,11 +13,14 @@ Consigli del giorno:
 
 for(let i=1; i<=100; i++){
     
-    if(Number.isInteger(i / 3)){
-        console.log('FIZZ',i);
+
+    if( Number.isInteger(i / 3) && Number.isInteger(i / 5) ){
+        console.log('FizzBuzz',i);
+    }else if(Number.isInteger(i / 3)){
+        console.log('Fizz',i);
     } else if(Number.isInteger(i / 5)){
-        console.log('BUZZ',i);                
-    }else{
+        console.log('Buzz',i);                
+    }else {
         console.log(i);
     }
     
