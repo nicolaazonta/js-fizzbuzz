@@ -18,7 +18,7 @@ for(let i=1; i<=100; i++){
         console.log('FizzBuzz',i);
         const squareMarkup = `        
         <div class="col">
-            <div class="square square_fizzBuzz">${i}<h4>FizzBuzz</h4> </div>    
+            <div class="square square_fizzBuzz">${i}<h4 class="text-center">FizzBuzz</h4> </div>    
                    
         </div>   
         `
@@ -28,7 +28,7 @@ for(let i=1; i<=100; i++){
         console.log('Fizz',i);
         const squareMarkup = `        
         <div class="col">
-            <div class="square square_fizz">${i}<h4>Fizz</h4>   </div> 
+            <div class="square square_fizz">${i}<h4 class="text-center">Fizz</h4>   </div> 
                    
         </div>   
         `
@@ -38,7 +38,7 @@ for(let i=1; i<=100; i++){
         console.log('Buzz',i);  
         const squareMarkup = `        
         <div class="col">
-            <div class="square square_Buzz">${i}<h4>Buzz</h4> </div> 
+            <div class="square square_Buzz">${i}<h4 class="text-center">Buzz</h4> </div> 
                       
         </div>   
         `
@@ -48,7 +48,7 @@ for(let i=1; i<=100; i++){
         console.log(i);
         const squareMarkup = `        
         <div class="col">
-            <div class="square square_standard">${i}<h4>buuuuuu</h4> </div>  
+            <div class="square square_standard">${i}<h6 class="text-center">Hi! I'm useful!</h6> </div>  
                      
         </div>   
         `
