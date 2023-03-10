@@ -1,0 +1,29 @@
+.square{
+    width: 8rem;
+    aspect-ratio: 1/1;
+    border: 2px solid white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    color: white;
+}
+
+.square_fizzBuzz{
+    background-color: violet ;
+}
+.square_fizz{
+    background-color: blue ;
+}
+.square_Buzz{
+    background-color: olive ;
+}
+.square_standard{
+    background-color: rgba(128, 0, 92, 0.397) ;
+}
+
+body{
+    background-color: aqua!important;
+}

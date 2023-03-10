@@ -16,12 +16,44 @@ for(let i=1; i<=100; i++){
 
     if( Number.isInteger(i / 3) && Number.isInteger(i / 5) ){
         console.log('FizzBuzz',i);
+        const squareMarkup = `        
+        <div class="col">
+            <div class="square square_fizzBuzz">${i}<h4>FizzBuzz</h4> </div>    
+                   
+        </div>   
+        `
+        let squareSquare=document.querySelector('.row')
+        squareSquare.insertAdjacentHTML('beforeend', squareMarkup)
     }else if(Number.isInteger(i / 3)){
         console.log('Fizz',i);
+        const squareMarkup = `        
+        <div class="col">
+            <div class="square square_fizz">${i}<h4>Fizz</h4>   </div> 
+                   
+        </div>   
+        `
+        let squareSquare=document.querySelector('.row')
+        squareSquare.insertAdjacentHTML('beforeend', squareMarkup)
     } else if(Number.isInteger(i / 5)){
-        console.log('Buzz',i);                
+        console.log('Buzz',i);  
+        const squareMarkup = `        
+        <div class="col">
+            <div class="square square_Buzz">${i}<h4>Buzz</h4> </div> 
+                      
+        </div>   
+        `
+        let squareSquare=document.querySelector('.row')
+        squareSquare.insertAdjacentHTML('beforeend', squareMarkup)              
     }else {
         console.log(i);
+        const squareMarkup = `        
+        <div class="col">
+            <div class="square square_standard">${i}<h4>buuuuuu</h4> </div>  
+                     
+        </div>   
+        `
+        let squareSquare=document.querySelector('.row')
+        squareSquare.insertAdjacentHTML('beforeend', squareMarkup)
     }
     
     //console.log(i);
